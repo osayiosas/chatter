@@ -29,6 +29,7 @@ const Header: React.FC = () => {
         <div className={styles.bannerNav}>
           <div>Tell your Story</div>
           <div>Membership</div>
+          <div>write</div>
           <div>Sign in</div>
           <div className={styles.accentedButton}>Get started</div>
         </div>
