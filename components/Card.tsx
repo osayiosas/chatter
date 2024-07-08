@@ -4,6 +4,7 @@ import photo from "../assets/static/phtoto.png";
 import { FiBookmark } from "react-icons/fi";
 import Link from "next/link";
 
+
 const styles: { [key: string]: string } = {
   wrapperContainer: `flex max-w-[47rem] h-[10rem] items-center gap-1  cursors-pointer`,
   authorContainer: `flex gap-2`,
@@ -22,7 +23,7 @@ const styles: { [key: string]: string } = {
 
 const Card: React.FC = () => {
   return (
-    <Link href={`/post/[id]`}>
+  <Link href={`/post/123`}>
       <div className={styles.wrapperContainer}>
         <div className={styles.postDetails}>
           <div className={styles.authorContainer}>
