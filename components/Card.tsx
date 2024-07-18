@@ -23,7 +23,7 @@ const styles: { [key: string]: string } = {
 
 const Card: React.FC = () => {
   return (
-  <Link href={`/post/123`}>
+    <Link href={`/post/123`}>
       <div className={styles.wrapperContainer}>
         <div className={styles.postDetails}>
           <div className={styles.authorContainer}>
