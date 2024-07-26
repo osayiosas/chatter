@@ -1,4 +1,5 @@
 import ReadersNav from "../../../../components/ReadersNav";
+import ArticleMain from "../../../../components/ArticleMain";
 import Recommendation from "../../../../components/Recommendation";
 
 
@@ -10,7 +11,7 @@ const pages = () => {
   return (
     <div className={styles.content}>
       <ReadersNav />
-      <div> Airtcle main page </div>
+      <ArticleMain />
       <Recommendation />
     </div>
   );
