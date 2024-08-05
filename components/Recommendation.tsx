@@ -119,7 +119,7 @@ const recommendedPost: Post[] = [
     image: AltLogo,
     author: {
       name: "HackSultan",
-      image: AvLogo ,
+      image: AvLogo,
     },
   },
   {
