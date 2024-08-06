@@ -21,6 +21,14 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/post/[slug].js", "utils/firebaseConfig.js", "context/chatterContext.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/post/[slug].js",
+    "src/app/utils/firebaseConfig.js",
+    "src/app/context/chatterContext.tsx"
+  ],
   "exclude": ["node_modules"]
 }
